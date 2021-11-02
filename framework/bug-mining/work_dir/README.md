@@ -1,6 +1,6 @@
 # Overview of patch minimization for commons-configuration and commons-validator
 
-This is a temporary working fork of defects4j repository. We aim to minimize candidate reproducible bug to the database.
+This is a temporary working fork of defects4j repository. We aim to minimize candidate reproducible bugs to the database.
 
 We will minimize the bugs at this fork and `promote-to-db` after we collect all minimization.
 
