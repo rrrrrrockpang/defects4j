@@ -8,7 +8,7 @@ Here is the [Patch-Minimization_Guide](https://github.com/rjust/defects4j/blob/m
 
 1. Clone this [repository](https://github.com/rrrrrrockpang/defects4j/tree/bug-mining) and checkout the `bug-mining` branch.
 
-2. Make a bare Git repository for commons-configuration and commons-validator
+2. Make a bare Git repository for commons-configuration and commons-validator. Note that we added the `work_dir` under `bug-mining` folder as the temporary working directory simply to store our progress on the two projects. This is different from the public defects4j repository. 
 
 ```
 cd $(defects4j_project_dir)/defects4j/framework/bug-mining/work_dir
