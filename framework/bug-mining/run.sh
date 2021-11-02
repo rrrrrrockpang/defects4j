@@ -8,4 +8,4 @@ ISSUE_TRACKER_NAME="jira"
 ISSUE_TRACKER_PROJECT_ID="CONFIGURATION"
 BUG_FIX_REGEX="/(CONFIGURATION-\d+)/mi"
 
-./minimize-patch.pl -p $PROJECT_ID -w $WORK_DIR -b 59
+./minimize-patch.pl -p $PROJECT_ID -w $WORK_DIR -b <bid>
