@@ -6,9 +6,9 @@ We will minimize the bugs at this fork and `promote-to-db` after we collect all 
 
 Here is the [Patch-Minimization_Guide](https://github.com/rjust/defects4j/blob/master/framework/bug-mining/Patch-Minimization-Guide.md). The default editor for patch minimization is [meld](https://meldmerge.org/). Here is the [requirement for defects4j](https://github.com/rjust/defects4j).
 
-* Clone this [repository](https://github.com/rrrrrrockpang/defects4j/tree/bug-mining) and checkout the `bug-mining` branch.
+1. Clone this [repository](https://github.com/rrrrrrockpang/defects4j/tree/bug-mining) and checkout the `bug-mining` branch.
 
-* Make a bare Git repository for commons-configuration and commons-validator
+2. Make a bare Git repository for commons-configuration and commons-validator
 
 ```
 cd $(defects4j_project_dir)/defects4j/framework/bug-mining/work_dir
@@ -18,9 +18,9 @@ git clone --bare https://github.com/apache/commons-configuration.git
 # https://github.com/apache/commons-validator.git
 ```
 
-* Navigator to the `run.sh` in `framework/bug-mining` folder
+3. Navigator to the `run.sh` in `framework/bug-mining` folder
 
-* Select the list of reproducible bug candidates from the lists. The lists are randomly generated 
+4. Update the `<bid>` based on the list below. The lists are randomly generated from candidate reproducible bugs after running `get_metadata`.
 
 ```
 # commons-configuration
