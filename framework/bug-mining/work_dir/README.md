@@ -20,7 +20,7 @@ git clone --bare https://github.com/apache/commons-configuration.git
 
 3. Navigator to the `run.sh` in `framework/bug-mining` folder
 
-4. Update the `<bid>` based on the list below. The lists are randomly generated from candidate reproducible bugs after running `get_metadata`.
+4. In `run.sh`, update the `<bid>` based on the list below. The lists are randomly generated from candidate reproducible bugs after running `get_metadata`.
 
 ```
 # commons-configuration
